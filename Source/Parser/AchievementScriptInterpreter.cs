@@ -108,6 +108,7 @@ namespace RATools.Parser
                 _globalScope.AddFunction(new FlagConditionFunction("never", RequirementType.ResetIf));
                 _globalScope.AddFunction(new FlagConditionFunction("unless", RequirementType.PauseIf));
                 _globalScope.AddFunction(new FlagConditionFunction("trigger_when", RequirementType.Trigger));
+                _globalScope.AddFunction(new FlagConditionFunction("resetnext_if", RequirementType.ResetNextIf));
                 _globalScope.AddFunction(new MeasuredFunction());
                 _globalScope.AddFunction(new DisableWhenFunction());
 
